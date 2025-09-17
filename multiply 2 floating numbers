@@ -1,0 +1,4 @@
+a=float(input("enter a:"))
+b=float(input("enter b:"))
+product=a*b
+print(product)
