@@ -1,0 +1,8 @@
+student=input("enter student name:")
+mclass=int(input("enter the marks obtained in class:"))
+mprac=int(input("enter the practical marks:"))
+total_score=mclass+mprac
+if (mclass>=25 and mprac>=15 and total_score>40):
+  print("student passed the exam")
+else:
+  print("student failed the exam")
