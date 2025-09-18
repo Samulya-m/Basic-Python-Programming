@@ -1,0 +1,5 @@
+num=(int(input("enter the number:")))
+if (num%5==0 and num %10==0):
+  print("given number is divisible by both 5 and 10")
+else:
+  print("given number is not divisible by both 5 and 10")
